@@ -4,7 +4,7 @@ Short description of `soso.{{cookiecutter.project_name}}`
 
 ## Quickstart
 
-`$ pip install soso-{{cookiecutter.project_name}}`
+`$ pip install git+https://github.com/sohailsomani/soso-{{cookiecutter.project_name}}`
 
 ```python
 from soso import {{cookiecutter.project_name}}
