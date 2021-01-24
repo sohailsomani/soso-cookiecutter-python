@@ -2,5 +2,5 @@ import unittest
 
 
 class Test{{ cookiecutter.project_name|title }}(unittest.TestCase):
-    def test_something(self):
+    def test_something(self) -> None:
         pass
