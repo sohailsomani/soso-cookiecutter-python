@@ -1,1 +1,2 @@
 discover
+mypy >= 0.800

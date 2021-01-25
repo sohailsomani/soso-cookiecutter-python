@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/sohailsomani/soso-{{cookiecutter.project_name}}",
-    packages=setuptools.find_packages(include=['soso.*']),
+    packages=['soso.{{cookiecutter.project_name}}'],
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",
