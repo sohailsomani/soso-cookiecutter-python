@@ -1,3 +1,6 @@
+# flake8: noqa
+# type: ignore
+
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -11,9 +14,10 @@ setuptools.setup(
     description="{{cookiecutter.short_description}}",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sohailsomani/soso-{{cookiecutter.project_name}}",
-    packages=['soso.{{cookiecutter.project_name}}'],
+    url="https://github.com/sohailsomani/{{cookiecutter.project_name}}",
+    packages=['soso.{{cookiecutter.project_name}}','soso'],
     package_data = {
+        'soso':['*.pyi','py.typed'],
         'soso.{{cookiecutter.project_name}}':['*.pyi','py.typed']
     },
     classifiers=[
